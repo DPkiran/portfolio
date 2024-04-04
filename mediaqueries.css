@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: fit-content;
+    /* margin-bottom: 6rem; */
   }
   .about-containers {
     flex-wrap: wrap;
@@ -12,12 +12,45 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1350px) {
+  .project-flex{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+
+  .card:first-child, .card:nth-child(2){
+    width: 45%;
+  }
+
+  .card:last-child{
+    width: 50%;
+    margin: auto;
+    
+  }
+
+}
+
+@media screen and (max-width:1150px) {
+  
+  .text-container{
+    display: none;
+  }
+
+  .text-container_2{
+    display: block;
+    margin-top: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
+    display: -webkit-flex;
   }
   #experience,
   .experience-details-container {
@@ -45,17 +78,34 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .project-flex{
+    justify-content: center;
+
+  }
+  
+}
+
+@media screen and (max-width: 817px) {
+  .project-flex{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card:first-child, .card:nth-child(2),.card:last-child{
+    width: 70%;
+    margin: auto;
+  }
+
+  .contact-info-upper-container{
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
-  }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
+
   article {
     font-size: 1rem;
   }
@@ -81,11 +131,6 @@
   .logo {
     font-size: 1.5rem;
   }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
   .section__pic-container {
     width: auto;
     height: 46vw;
@@ -100,4 +145,6 @@
   .text-container {
     text-align: justify;
   }
+
+
 }

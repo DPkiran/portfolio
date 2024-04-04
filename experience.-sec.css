@@ -1,0 +1,44 @@
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+    height: fit-content;
+    padding: 3rem 0;
+  }
+  
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-details-container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .article-container {
+    display: flex;
+    display: -webkit-flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  
+  article {
+    display: flex;
+    display: -webkit-flex;
+    width: 10rem;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  article .icon {
+    cursor: default;
+  }
+  
