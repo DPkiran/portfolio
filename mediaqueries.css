@@ -52,8 +52,7 @@
     display: flex;
     display: -webkit-flex;
   }
-  #experience,
-  .experience-details-container {
+  #experience {
     margin-top: 2rem;
   }
   #profile,
@@ -79,6 +78,10 @@
     margin-top: 0;
   }
 
+  .article-container{
+    gap: 3rem;
+  }
+
   .project-flex{
     justify-content: center;
 
@@ -95,13 +98,14 @@
   }
 
   .card:first-child, .card:nth-child(2),.card:last-child{
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
 
   .contact-info-upper-container{
     gap: 1rem;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -125,8 +129,12 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  .experience-sub-title {
+  /* .experience-sub-title {
     font-size: 1.25rem;
+  } */
+
+  .experience-details-container{
+    margin-top: 2rem;
   }
   .logo {
     font-size: 1.5rem;
@@ -146,5 +154,16 @@
     text-align: justify;
   }
 
+  .about-containers{
+    margin-bottom: 0;
+  }
+
+  #about h1{
+    margin-bottom: 1rem;
+  }
+
+  .nav-links a:hover{
+    font-size: 1.5rem;
+  }
 
 }

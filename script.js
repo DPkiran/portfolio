@@ -76,3 +76,13 @@ function initBlobs() {
 }
 
 initBlobs()
+
+// gmail button
+
+function composeEmail() {
+  alert("Please manually enter the recipient email address in the To field.");
+
+  var mailtoUrl = 'mailto:?subject=Subject%20Here&body=Body%20Here';
+
+  window.location.href = mailtoUrl;
+}

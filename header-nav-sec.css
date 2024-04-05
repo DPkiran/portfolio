@@ -1,4 +1,7 @@
 /* DESKTOP NAV */
+body{
+  overflow-x: hidden;
+}
 
 #desktop-nav, #hamburger-nav{
   padding: 3rem 0;
@@ -27,11 +30,12 @@ a {
   text-decoration-color: white;
 }
 
-a:hover {
+.nav-links a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
+  font-size: 2rem;
 }
 
 .logo {
@@ -73,7 +77,7 @@ a:hover {
   #menuToggle input
   {
     display: block;
-    width: 40px;
+    width: 50px;
     height: 32px;
     position: absolute;
     top: -7px;
@@ -136,13 +140,13 @@ a:hover {
   #menu
   {
     position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
+    width: 90px;
+    margin: -90px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     border-radius: 0 1rem;
     top: 0;
-    left: 0;
+    left: -1.5rem;
     background: #ededed;
     list-style-type: none;
     /* to stop flickering of text in safari */
@@ -180,7 +184,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 8rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
