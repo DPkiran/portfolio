@@ -134,11 +134,15 @@
   }
   .contact-info-container p,
   .nav-links li a {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   /* .experience-sub-title {
     font-size: 1.25rem;
   } */
+
+  #experience, #about{
+    margin: 0 3rem;
+  }
 
   .experience-details-container{
     margin-top: 2rem;
