@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="./assets/portfolio.png" type="image/x-icon">
   </head>
   <body>
+
+   <!-- background -->
     <div class="container">
       <div class="bouncing-blobs-container">
         <div class="bouncing-blobs-glass"></div>
@@ -37,21 +39,23 @@
       </div>
     </nav>
 
-    <nav id="navigation">
-        <div class="logo">Deepak kiran</div>
-        <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-            <a href="#about"><li>About</li></a>
-            <a href="#experience"><li>Experience</li></a>
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#contact"><li>Contact</li></a>
-        </ul>
+    <nav id="hamburger-nav">
+      <div class="logo">Deepak kiran</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
     </nav>
+    
 
     <section id="profile">
       <div class="section__pic-container">
@@ -107,7 +111,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>fresher <br />SRM university</p>
+              <p>web developer intern <br />SRM university</p>
             </div>
             <div class="details-container">
               <img

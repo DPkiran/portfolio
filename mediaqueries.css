@@ -94,9 +94,7 @@
 }
 
 @media screen and (max-width: 817px) {
-  body{
-    overflow-x: hidden;
-  }
+  
   .project-flex{
     display: flex;
     display: -webkit-flex;
@@ -124,9 +122,14 @@
 
 @media screen and (max-width: 600px) {
 
+  body{
+    overflow-x: hidden;
+  }
+
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
@@ -192,6 +195,10 @@
     width: 110px;
     top: 0;
     left: -2rem;
+  }
+
+  footer ul .nav-links{
+    justify-content: center;
   }
 
   .contact-info-upper-container{
