@@ -139,13 +139,13 @@ a {
   #menu
   {
     position: absolute;
-    width: 200px;
+    width: 170px;
     margin: -90px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     border-radius: 0 1rem;
     top: 0;
-    left: -2rem;
+    left: 0rem;
 
     background: #ededed;
     list-style-type: none;

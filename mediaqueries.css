@@ -113,6 +113,13 @@
     gap: 1rem;
   }
 
+  
+  #menu{
+    width: 150px;
+    top: 0;
+    left: -2rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -179,6 +186,12 @@
 
   body{
     overflow-x: hidden;
+  }
+
+  #menu{
+    width: 110px;
+    top: 0;
+    left: -2rem;
   }
 
   .contact-info-upper-container{
