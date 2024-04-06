@@ -176,4 +176,18 @@
   body{
     overflow-x: hidden;
   }
+
+  .contact-info-upper-container{
+    display: block;
+    /* justify-content: flex-start; */
+    padding: 1rem;
+  }
+
+  .contact-info-container:first-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-info-container{
+    justify-content: flex-start;
+  }
 }
