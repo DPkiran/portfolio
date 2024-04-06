@@ -94,6 +94,9 @@
 }
 
 @media screen and (max-width: 817px) {
+  body{
+    overflow-x: hidden;
+  }
   .project-flex{
     display: flex;
     display: -webkit-flex;
@@ -131,7 +134,7 @@
   }
   .contact-info-container p,
   .nav-links li a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   /* .experience-sub-title {
     font-size: 1.25rem;
@@ -170,7 +173,7 @@
     font-size: 1.5rem;
   }
 
- 
-  
-
+  body{
+    overflow-x: hidden;
+  }
 }
