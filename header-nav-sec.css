@@ -96,7 +96,6 @@ a {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    
     background: #cdcdcd;
     border-radius: 3px;
     
@@ -140,13 +139,14 @@ a {
   #menu
   {
     position: absolute;
-    width: 90px;
+    width: 200px;
     margin: -90px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     border-radius: 0 1rem;
     top: 0;
-    left: -1.5rem;
+    left: -2rem;
+
     background: #ededed;
     list-style-type: none;
     /* to stop flickering of text in safari */

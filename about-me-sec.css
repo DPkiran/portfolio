@@ -55,6 +55,7 @@
   .section-container {
     gap: 4rem;
     height: 80%;
+    margin-top: 2rem;
   }
   
   .section__pic-container {
